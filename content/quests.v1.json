@@ -1,0 +1,120 @@
+{
+  "version": "v1",
+  "quests": [
+    {
+      "id": "email-rewrite",
+      "title": {
+        "uk": "Перепиши складний email простою мовою",
+        "en": "Rewrite a complex email in plain language",
+        "ru": "Перепиши сложный email простым языком"
+      },
+      "result": {
+        "uk": "Короткий та зрозумілий лист для клієнта",
+        "en": "A short and clear email for the customer",
+        "ru": "Короткое и понятное письмо для клиента"
+      },
+      "prompt": {
+        "uk": "Сформулюй повідомлення в дружньому тоні. Прибери канцеляризми та залиш тільки ключові дії і дедлайни.",
+        "en": "Rewrite the message in a friendly tone. Remove jargon and keep only key actions and deadlines.",
+        "ru": "Переформулируй сообщение в дружелюбном тоне. Убери канцелярит и оставь только ключевые действия и дедлайны."
+      },
+      "rubric": {
+        "uk": "Оцінка: ясність, тон, структура, відсутність зайвого.",
+        "en": "Rubric: clarity, tone, structure, no fluff.",
+        "ru": "Критерии: ясность, тон, структура, без лишнего."
+      }
+    },
+    {
+      "id": "meeting-summary",
+      "title": {
+        "uk": "Зроби підсумок зустрічі в 5 пунктах",
+        "en": "Summarize a meeting in 5 bullets",
+        "ru": "Сделай итог встречи в 5 пунктах"
+      },
+      "result": {
+        "uk": "Стисла нотатка з рішеннями та наступними кроками",
+        "en": "A concise note with decisions and next steps",
+        "ru": "Краткая заметка с решениями и следующими шагами"
+      },
+      "prompt": {
+        "uk": "Виділи теми, рішення, ризики і відповідальних. Форматуй рівно 5 пунктів.",
+        "en": "Extract topics, decisions, risks, and owners. Format as exactly 5 bullet points.",
+        "ru": "Выдели темы, решения, риски и ответственных. Оформи ровно в 5 пунктов."
+      },
+      "rubric": {
+        "uk": "Оцінка: повнота, конкретика, читабельність.",
+        "en": "Rubric: completeness, specificity, readability.",
+        "ru": "Критерии: полнота, конкретика, читаемость."
+      }
+    },
+    {
+      "id": "ad-headlines",
+      "title": {
+        "uk": "Створи 10 заголовків для реклами",
+        "en": "Create 10 ad headlines",
+        "ru": "Создай 10 заголовков для рекламы"
+      },
+      "result": {
+        "uk": "Набір різних за стилем заголовків для A/B тесту",
+        "en": "A set of style-diverse headlines for A/B testing",
+        "ru": "Набор заголовков в разных стилях для A/B теста"
+      },
+      "prompt": {
+        "uk": "Згенеруй 10 коротких заголовків. Додай варіанти з емоцією, цифрою, вигодою та закликом до дії.",
+        "en": "Generate 10 short headlines. Include variants with emotion, number, benefit, and call to action.",
+        "ru": "Сгенерируй 10 коротких заголовков. Добавь варианты с эмоцией, числом, выгодой и призывом к действию."
+      },
+      "rubric": {
+        "uk": "Оцінка: унікальність, релевантність, придатність для тестування.",
+        "en": "Rubric: uniqueness, relevance, testability.",
+        "ru": "Критерии: уникальность, релевантность, пригодность для тестирования."
+      }
+    },
+    {
+      "id": "feedback-soften",
+      "title": {
+        "uk": "Пом'якши жорсткий фідбек без втрати сенсу",
+        "en": "Soften harsh feedback without losing meaning",
+        "ru": "Смягчи жесткий фидбек без потери смысла"
+      },
+      "result": {
+        "uk": "Конструктивний зворотний зв'язок із чіткими порадами",
+        "en": "Constructive feedback with clear guidance",
+        "ru": "Конструктивная обратная связь с четкими рекомендациями"
+      },
+      "prompt": {
+        "uk": "Перефразуй текст так, щоб він залишився чесним, але став поважним і мотиваційним.",
+        "en": "Rephrase the text so it stays honest but becomes respectful and motivating.",
+        "ru": "Перефразируй текст так, чтобы он остался честным, но стал уважительным и мотивирующим."
+      },
+      "rubric": {
+        "uk": "Оцінка: емпатія, конкретність, збереження фактів.",
+        "en": "Rubric: empathy, specificity, fact preservation.",
+        "ru": "Критерии: эмпатия, конкретика, сохранение фактов."
+      }
+    },
+    {
+      "id": "learning-plan",
+      "title": {
+        "uk": "Склади 30-денний план вивчення навички",
+        "en": "Build a 30-day skill learning plan",
+        "ru": "Составь 30-дневный план изучения навыка"
+      },
+      "result": {
+        "uk": "Покроковий план із щотижневими цілями",
+        "en": "A step-by-step plan with weekly goals",
+        "ru": "Пошаговый план с недельными целями"
+      },
+      "prompt": {
+        "uk": "Розбий навчання на 4 тижні: основи, практика, проєкт, рев'ю. Додай конкретні задачі щодня.",
+        "en": "Split learning into 4 weeks: basics, practice, project, review. Add specific daily tasks.",
+        "ru": "Разбей обучение на 4 недели: база, практика, проект, ревью. Добавь конкретные ежедневные задачи."
+      },
+      "rubric": {
+        "uk": "Оцінка: реалістичність, послідовність, вимірюваність прогресу.",
+        "en": "Rubric: realism, progression, measurable progress.",
+        "ru": "Критерии: реалистичность, последовательность, измеримый прогресс."
+      }
+    }
+  ]
+}
